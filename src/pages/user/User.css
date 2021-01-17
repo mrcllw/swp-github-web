@@ -1,0 +1,49 @@
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
+p {
+  margin: 0;
+}
+
+.big {
+  font-size: 20px;
+}
+
+.small {
+  font-size: 15px;
+}
+
+.login {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 8px;
+  font-size: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  font-size: 15px;
+}
+
+.scrollable {
+  margin-top: 20px;
+  height: 300px;
+  overflow: auto;
+}
